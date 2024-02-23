@@ -11,7 +11,7 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(247 0 0);
+  color: rgb(247, 0%, 0%);
 }
 span{
   color: hsl(0 0% 0%);
@@ -22,11 +22,11 @@ a {
 }
 
 .page-content {
-  color: hsl(0 0% 0%);
+  color: hsl(0, 0%, 0%);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
 
 body {
-  background-color: hsl(218 100% 96%);
+  background-color: hsl(218, 100%, 96%);
 }
