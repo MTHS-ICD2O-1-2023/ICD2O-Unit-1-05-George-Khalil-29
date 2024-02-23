@@ -1,32 +1,24 @@
 
-.mdl-layout__header-row {
-  justify-content: center;
-  padding: 0;
-}
-
-.mdl-layout__content {
+mdl-layout__content {
   padding-left: 15pt;
   padding-right: 15pt;
   padding-top: 15pt;
 }
 
-.mdl-textfield__error {
-  color: #f70000;
-}
-span{
-  color: hsl(0 0% 0%);
-}
-
-a {
-  color: #f70e0e;
-}
-.page-content {
-  color: hsl(0 0% 0%);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #070707;
+  opacity: 0.001;
 }
 
 body {
-  background-color: #ecf3ff;
-  
+  background-color: rgb(240, 240, 240);
+}
+
+p {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
 }
